@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de Compras</title>
+</head>
+<body>
+    <h1> Simulação de Compra de Itens </h1>
+
+    <h2> Produtos Disponíveis </h2>
+    <ul id="lista-produtos"></ul>
+    <input type="text" id="barra-pesquisa" placeholder=" Nome do Produto">
+    <button onclick="searchProduct()">Buscar</button>
+
+    <P id="resultado-pesquisa"></P>
+
+    <h2> Carrinho de Compras </h2>
+    <ul id="carrinho"> </ul>
+    <p id="preço-total"></p>
+
+    <h2>Ordenar por Preço</h2>
+    <button onclick="sortCart()">Ordenar Carrinho</button>
+  
+    <script src="script.js"></script>
+    
+</body>
+</html>
